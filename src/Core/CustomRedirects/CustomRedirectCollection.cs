@@ -66,7 +66,7 @@ namespace BVNetwork.NotFound.Core.CustomRedirects
             // Common case
             if (foundRedirect == null)
             {
-                url = urlNotFound.PathAndQuery; ;
+                url = urlNotFound.PathAndQuery;
                 foundRedirect = FindInternal(url);
             }
 
